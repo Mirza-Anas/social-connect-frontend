@@ -422,8 +422,20 @@
   overflow: hidden;
   margin: 0 0.2vw;
 }
-.dashboard .dashboard-main .dashboard-main-userpost .post-below-comments .post-below-image img {
-  width: 100%;
+.dashboard .dashboard-main .dashboard-main-userpost .post-below-comments .post-below-image div {
+  display: flex;
+  width: 2vw;
+  height: 2vw;
+  border-radius: 50%;
+  background-color: rgb(0, 90, 97);
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-right: 0.5vw;
+  overflow: hidden;
+}
+.dashboard .dashboard-main .dashboard-main-userpost .post-below-comments .post-below-image div img {
+  width: 2vw;
   height: auto;
   border-radius: 50%;
 }
@@ -731,8 +743,20 @@
   overflow: hidden;
   margin: 0 0.2vw;
 }
-.comments-page .dashboard-main-userpost .post-below-comments .post-below-image img {
-  width: 100%;
+.comments-page .dashboard-main-userpost .post-below-comments .post-below-image div {
+  display: flex;
+  width: 2vw;
+  height: 2vw;
+  border-radius: 50%;
+  background-color: rgb(0, 90, 97);
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-right: 0.5vw;
+  overflow: hidden;
+}
+.comments-page .dashboard-main-userpost .post-below-comments .post-below-image div img {
+  width: 2vw;
   height: auto;
   border-radius: 50%;
 }
