@@ -478,11 +478,30 @@
                     overflow: hidden;
                     margin: 0 0.2vw;
 
-                    img{
-                        width: 100%;
-                        height: auto;
+                    div{
+                        display: flex;
+                        width: 2vw;
+                        height: 2vw;
                         border-radius: 50%;
+                        background-color: rgb(0, 90, 97);
+                        align-items: center;
+                        justify-content: center;
+                        color:white;
+                        margin-right: 0.5vw;
+                        overflow: hidden;
+    
+                        img{
+                            width: 2vw;
+                            height: auto;
+                            border-radius: 50%;
+                        }
                     }
+
+                    // img{
+                    //     width: 100%;
+                    //     height: auto;
+                    //     border-radius: 50%;
+                    // }
                 }
 
                 .post-below-comment-main{
@@ -835,12 +854,31 @@
                 justify-content: center;
                 overflow: hidden;
                 margin: 0 0.2vw;
-    
-                img{
-                    width: 100%;
-                    height: auto;
+
+                div{
+                    display: flex;
+                    width: 2vw;
+                    height: 2vw;
                     border-radius: 50%;
+                    background-color: rgb(0, 90, 97);
+                    align-items: center;
+                    justify-content: center;
+                    color:white;
+                    margin-right: 0.5vw;
+                    overflow: hidden;
+
+                    img{
+                        width: 2vw;
+                        height: auto;
+                        border-radius: 50%;
+                    }
                 }
+    
+                // img{
+                //     width: 100%;
+                //     height: auto;
+                //     border-radius: 50%;
+                // }
             }
     
             .post-below-comment-main{
